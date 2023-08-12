@@ -1,5 +1,6 @@
 <script>
 import "../app.scss";
+import { base } from "$app/paths"
 
 import { onMount } from "svelte";
 import {auth, db} from "$lib/firebase/firebase"
@@ -18,7 +19,7 @@ onMount(() =>{
         }
 
         if(user && currentPath === "/"){
-            window.location.href = "/dashboard"
+            window.location.href = "{base}/dashboard"
             return
         }
 
