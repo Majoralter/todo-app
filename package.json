@@ -20,6 +20,7 @@
   },
   "type": "module",
   "dependencies": {
-    "firebase": "^10.1.0"
+    "firebase": "^10.1.0",
+    "gh-pages": "^6.0.0"
   }
 }
